@@ -1,0 +1,124 @@
+{
+  "pbtResults": {
+    "1. Write bug condition exploration test": {
+      "status": "passed",
+      "failingExample": "Counterexample found: TILE_URL is a string \"https://tile.openstreetmap.org/{z}/{x}/{y}.png\" instead of an array with OSM subdomains (a.tile.openstreetmap.org, b.tile.openstreetmap.org, c.tile.openstreetmap.org). All three property tests failed confirming the bug exists.",
+      "lastRunTimestamp": 1794823706064
+    },
+    "2. Write preservation property tests (BEFORE implementing fix)": {
+      "status": "passed",
+      "lastRunTimestamp": 1794823824516
+    }
+  },
+  "executionHistory": {
+    "1. Write bug condition exploration test": [
+      {
+        "executionId": "dc683522-b6cc-4cb9-afbc-e0e695f8c60c",
+        "chatSessionId": "sess_01f75868-2e9a-4891-803d-c91067382534",
+        "timestamp": 1794823479451
+      },
+      {
+        "executionId": "dc683522-b6cc-4cb9-afbc-e0e695f8c60c",
+        "chatSessionId": "sess_01f75868-2e9a-4891-803d-c91067382534",
+        "timestamp": 1794823489214
+      },
+      {
+        "executionId": "dc683522-b6cc-4cb9-afbc-e0e695f8c60c",
+        "chatSessionId": "sess_01f75868-2e9a-4891-803d-c91067382534",
+        "timestamp": 1794823717877
+      }
+    ],
+    "2. Write preservation property tests (BEFORE implementing fix)": [
+      {
+        "executionId": "dc683522-b6cc-4cb9-afbc-e0e695f8c60c",
+        "chatSessionId": "sess_01f75868-2e9a-4891-803d-c91067382534",
+        "timestamp": 1794823479497
+      },
+      {
+        "executionId": "dc683522-b6cc-4cb9-afbc-e0e695f8c60c",
+        "chatSessionId": "sess_01f75868-2e9a-4891-803d-c91067382534",
+        "timestamp": 1794823726917
+      },
+      {
+        "executionId": "dc683522-b6cc-4cb9-afbc-e0e695f8c60c",
+        "chatSessionId": "sess_01f75868-2e9a-4891-803d-c91067382534",
+        "timestamp": 1794823839990
+      }
+    ],
+    "3.1 Implement the fix": [
+      {
+        "executionId": "dc683522-b6cc-4cb9-afbc-e0e695f8c60c",
+        "chatSessionId": "sess_01f75868-2e9a-4891-803d-c91067382534",
+        "timestamp": 1794823479525
+      },
+      {
+        "executionId": "dc683522-b6cc-4cb9-afbc-e0e695f8c60c",
+        "chatSessionId": "sess_01f75868-2e9a-4891-803d-c91067382534",
+        "timestamp": 1794823850522
+      },
+      {
+        "executionId": "dc683522-b6cc-4cb9-afbc-e0e695f8c60c",
+        "chatSessionId": "sess_01f75868-2e9a-4891-803d-c91067382534",
+        "timestamp": 1794826363803
+      }
+    ],
+    "3.2 Verify bug condition exploration test now passes": [
+      {
+        "executionId": "dc683522-b6cc-4cb9-afbc-e0e695f8c60c",
+        "chatSessionId": "sess_01f75868-2e9a-4891-803d-c91067382534",
+        "timestamp": 1794823479551
+      },
+      {
+        "executionId": "dc683522-b6cc-4cb9-afbc-e0e695f8c60c",
+        "chatSessionId": "sess_01f75868-2e9a-4891-803d-c91067382534",
+        "timestamp": 1794826373639
+      },
+      {
+        "executionId": "dc683522-b6cc-4cb9-afbc-e0e695f8c60c",
+        "chatSessionId": "sess_01f75868-2e9a-4891-803d-c91067382534",
+        "timestamp": 1794826378416
+      }
+    ],
+    "3.3 Verify preservation tests still pass": [
+      {
+        "executionId": "dc683522-b6cc-4cb9-afbc-e0e695f8c60c",
+        "chatSessionId": "sess_01f75868-2e9a-4891-803d-c91067382534",
+        "timestamp": 1794823479579
+      },
+      {
+        "executionId": "dc683522-b6cc-4cb9-afbc-e0e695f8c60c",
+        "chatSessionId": "sess_01f75868-2e9a-4891-803d-c91067382534",
+        "timestamp": 1794826388783
+      },
+      {
+        "executionId": "dc683522-b6cc-4cb9-afbc-e0e695f8c60c",
+        "chatSessionId": "sess_01f75868-2e9a-4891-803d-c91067382534",
+        "timestamp": 1794826393603
+      }
+    ],
+    "4. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "dc683522-b6cc-4cb9-afbc-e0e695f8c60c",
+        "chatSessionId": "sess_01f75868-2e9a-4891-803d-c91067382534",
+        "timestamp": 1794823479618
+      },
+      {
+        "executionId": "dc683522-b6cc-4cb9-afbc-e0e695f8c60c",
+        "chatSessionId": "sess_01f75868-2e9a-4891-803d-c91067382534",
+        "timestamp": 1794826399472
+      },
+      {
+        "executionId": "dc683522-b6cc-4cb9-afbc-e0e695f8c60c",
+        "chatSessionId": "sess_01f75868-2e9a-4891-803d-c91067382534",
+        "timestamp": 1794826404980
+      }
+    ],
+    "3. Fix for MapLibre Resource URL Parse Error": [
+      {
+        "executionId": "dc683522-b6cc-4cb9-afbc-e0e695f8c60c",
+        "chatSessionId": "sess_01f75868-2e9a-4891-803d-c91067382534",
+        "timestamp": 1794826393633
+      }
+    ]
+  }
+}
